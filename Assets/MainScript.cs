@@ -134,8 +134,8 @@ public class MainScript : MonoBehaviour
         string colorCode = "FFB932";
         string lineAComponent = data.FirstSurvives ? (" -> " + data.RemainingHealth) : " (killed)";
         string lineBComponent = data.FirstSurvives ? " (killed)" : (" -> " + data.RemainingHealth);
-        string lineA = string.Format("First Target:\t\t<color=#{0}>{1}</color>{2}", colorCode, data.FirstTargetHealth, lineAComponent);
-        string lineB = string.Format("Second Target:\t<color=#{0}>{1}</color>{2}", colorCode, data.SecondTargetHealth, lineBComponent);
+        string lineA = string.Format("First Target:\t\t<color=#{0}>{1}</color>{2}", colorCode, data.SecondTargetHealth, lineAComponent);
+        string lineB = string.Format("Second Target:\t<color=#{0}>{1}</color>{2}", colorCode, data.FirstTargetHealth, lineBComponent);
         string lineC = string.Format("Damage:\t\t<color=#{0}>{1}</color>", colorCode, data.Damage);
         return string.Format("{0}\n{1}\n{2}", lineA, lineB, lineC);
     }
