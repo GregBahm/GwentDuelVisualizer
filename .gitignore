@@ -1,8 +1,11 @@
 /Library/
 /Temp/
+/Builds/
 /GwentDuelVisualizer.csproj
 /GwentDuelVisualizer.Editor.csproj
 /GwentDuelVisualizer.Plugins.csproj
 /GwentDuelVisualizer.sln
 /Packages/
 /.vs/
+/com.unity.postprocessing.Editor.csproj
+/com.unity.postprocessing.Runtime.csproj
